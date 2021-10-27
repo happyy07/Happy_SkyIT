@@ -1,13 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Libre Baskerville', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.certificate{
+  padding: 5px;
+    border-radius: 5px;
+}
+.certificate-14-accompaniment{
+  background-color: #FFCDD2;
+  color: #636366;
+}
+.certificate-ca-pg{
+  background-color: #88a2aa;
+  color: #E6E6E9;
+}
+.certificate-general{
+  background-color: #C8E6C9;
+  color: #636366;
+}
+.badge-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  align-items: baseline;
+}
+.badge{
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px 8px;
+  margin: 5px;
+}
+.overview-content{
+  background-color: #88a2aa;
 }
